@@ -6,8 +6,11 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     margin: 0;
     padding: 0;
 }
+/* logo-menu start */
 #logo-menu{
-
+    background-color: rgb(135, 81, 157);
+    height: 370px;
+    
 }
 .content{
     width: 1200px;
@@ -15,6 +18,139 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     padding: 35px 0;
 }
 .logo h2{  
-    font-size: 32px;
-     
+    font-size:50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    float: left;
+    color: white;
+    font-style: italic;
 }
+.menu ul{
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin: 9px;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+.menu ul li a:hover{
+    background-color:rgb(98,61,118);
+    padding: 10px 8px;
+}
+.welcoming{
+    padding:70px 180px;
+}
+.welcoming h1{
+    color: white;
+    font-size: 40px;
+    
+}
+.welcoming h2{
+    font-size: 40px;
+    margin-left: -40px;
+    color: white;
+}
+.button {
+    margin-top: -30px;
+    margin-left: 450px;
+}
+.button a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(238, 123, 72);
+    padding: 14px 40px;
+    
+}
+/* logo-menu end */
+
+/* services section strat */
+
+#services{
+    background-color: rgb(23,193, 164);
+    height: 550px;
+}
+.service {
+    margin-left: 240px;
+}
+
+.service h3{
+    margin-top: 18px;    
+    font-size: 16px;
+    color: white;
+    margin-left: -120px;
+}
+.service h4{
+    color: white;
+    margin-top: 5px;
+}
+.box{
+    margin-left: 130px;
+    float: left;
+}
+.box h2{
+    margin-top: 20px;
+    font-size: 16px;
+    color: whitesmoke;
+    margin-left: 35px;
+}
+.box p{
+    margin-top: 17px;
+    color: wheat;
+    margin-left: 14px;
+}
+.box i{
+    font-size: 60px;
+    margin-left: 55px;
+    color: rgb(166, 255, 0);
+}
+
+/* services section end */
+/* about team member start */
+  #about-team{
+    background-color: rgb(240, 241, 248);
+    height: 650px;
+  }
+.about h1{
+    margin-left: 160px;
+}
+  .about p{
+    margin-top: 15px;
+    color: rgb(125, 129, 136);
+    margin-left: 72px;
+  }
+.round-box{
+    margin-top: 12px;
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    background-color: rgb(135,135, 135);
+    
+}
+.box-1 h2{
+    color: rgb(75, 84, 94);
+    font-family: initial;
+    font-weight: 950;
+    margin-top: 50px;
+    margin-left: 8px;
+}
+.box-1 h6{
+    margin-top: 5px;
+    color: rgb(0, 162, 255);
+    margin-left: 18px;
+}
+.box-1 p{
+    color:rgb(146, 151, 155) ;
+}
+.box-1 i{
+    font-size:13px;
+    margin:3px;
+    margin-left: 14px;
+    color: black;
+}
+/* about team member end */
