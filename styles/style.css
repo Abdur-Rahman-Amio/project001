@@ -102,7 +102,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
 .box p{
     margin-top: 17px;
     color: wheat;
-    margin-left: 14px;
+    margin-left: 24px;
 }
 .box i{
     font-size: 60px;
@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     height: 650px;
   }
 .about h1{
-    margin-left: 160px;
+    margin-left: 170px;
 }
   .about p{
     margin-top: 15px;
@@ -137,20 +137,123 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     font-family: initial;
     font-weight: 950;
     margin-top: 50px;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 .box-1 h6{
     margin-top: 5px;
     color: rgb(0, 162, 255);
-    margin-left: 18px;
+    margin-left: 27px;
 }
 .box-1 p{
     color:rgb(146, 151, 155) ;
 }
 .box-1 i{
-    font-size:13px;
+    font-size:19px;
     margin:3px;
     margin-left: 14px;
-    color: black;
+    color: rgb(162, 171, 179);    
 }
 /* about team member end */
+
+/* we got-skill section start*/
+#skils{
+      height: 450px;
+}
+.skills h1{
+    color:rgb(39, 42, 51);
+    margin-left: 95px;
+}
+.skills h3{
+   color: rgb(168, 168,168);
+}
+.skills h4{
+    color:  rgb(168, 168,168);
+    margin-left: 55px;
+}
+
+.loader{
+    float: left;
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+}
+
+.loader{
+    margin-left:55px ;
+}
+.loader h1{
+    color: rgb(43, 40, 40);
+    font-size: 35px;
+    position: relative;
+    left: 76px;
+    top: 20px;
+    z-index: 5;
+    
+}
+.loader i{
+    font-size: 150px;
+    z-index: 1;
+    position: absolute;
+    margin-left: 35px;
+}
+.loader h2{
+    color: rgb(43, 40, 40);
+    font-size: 16px;
+    /* margin-top: 110px;
+    padding-left: 24px; */
+    left: 30px;
+    top: 90px;
+    margin: 20px;
+    position: relative;
+}
+
+/* we got-skill section end */
+/* portfolio section start */
+#portfolio{
+    background-color: rgb(255, 220, 154);
+    height: 800px;
+}
+
+.menu-2{
+    margin-left: -220px;
+}
+.menu-2 ul li a{
+       background-color: rgb(230, 191, 119);
+       padding: 9px 19px;
+       color: black;
+       font-weight: 700;
+}
+.menu-2 ul li a:hover{
+    background-color: white;
+    padding: 9px 19px;
+}
+
+.portfolio{
+    float: left;
+    display: flex;
+    position: relative;
+    left: 355px;
+    top: 20px;
+    margin-left: 50px;
+    
+}
+.portfolio img{
+    height: 180px;
+    width: 250px;
+}
+.portfolio h6{
+    position: absolute;
+    top: 170px;
+    left: 70px;
+    color:rgb(119, 100, 50) ;
+    font-size: 12px;
+}
+.button-2{
+    position: relative;
+    top: 300px;
+    left: -33px;
+}
+.button-2 a{
+    background-color: rgb(13, 188, 162);
+}
+/* portfolio section end */
