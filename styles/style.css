@@ -139,12 +139,13 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     font-family: initial;
     font-weight: 950;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .box-1 h6{
     margin-top: 5px;
     color: rgb(0, 162, 255);
-    margin-left: 27px;
+    margin-left: 32px;
+    font-size: 9px;
 }
 .box-1 p{
     color:rgb(146, 151, 155) ;
@@ -257,6 +258,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
 }
 .button-2 a{
     background-color: rgb(13, 188, 162);
+    
 }
 /* portfolio section end */
 /* people say about us start */
@@ -275,26 +277,69 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     margin-left: 380px;
     margin-top: 20px;
 }
-.content-2{
-    width: 700px;
-    margin-left: 10px;
+.image-box{
+    display: flex;
+    
 }
-.box-3{
-    display:flex;
+.left{
+   margin-left: 180px;
+    width: 40%;
 }
-.round-box-1{
-    margin-left:10px;
-    height: 80px;
-    width: 180px;
-     
+.left img{
+    float: left;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
 }
-.abbout-him p{
-    color: white;
+.about-him{
+    position: relative;
+    left: 20px;
 }
+.about-him p{
+    color:rgb(246, 160, 200);
+}
+.about-him h2{
+    color:rgb(255, 228, 255) ;
+    padding-top: 4px;
+}
+.about-him h6{
+    color: rgb(252, 137, 169);
+    padding-top: 3px;
+}
+.right{
+    width: 40%;
 
-
-
-
+}
+.right img{
+    float: left;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+.image-box-2{
+    display: flex;
+    margin-top: 160px;
+}
+.boxes-1{
+ 
+    margin-left: 180px;
+    width: 40%;
+}
+.boxes-1 img{
+   float: left;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+}
+.boxes-2{
+    width: 40%;
+}
+.boxes-2 img{
+    float: left;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+}
 /* people say about us end */
 /*get in touch section start */
          #get-in-touch{
@@ -307,7 +352,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
         }
         .get-in-touch p{
              position: absolute;
-             left: 28px;
+             left: 32px;
         }
         .massage{
             position: relative;
@@ -355,6 +400,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
         left: 15px;
         top: 16px;
        }
+       
        .button-3{
         position: relative;
        }
