@@ -188,7 +188,7 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
     color: rgb(43, 40, 40);
     font-size: 35px;
     position: relative;
-    left: 76px;
+    left: 79px;
     top: 20px;
     z-index: 5;
     
@@ -201,15 +201,15 @@ h1,h2,h3,h4,h5,h6,a,ul,li,p,img{
 }
 .loader h2{
     color: rgb(43, 40, 40);
-    font-size: 16px;
-    /* margin-top: 110px;
-    padding-left: 24px; */
-    left: 30px;
+    font-size: 15px;
     top: 90px;
-    margin: 20px;
     position: relative;
+    margin-left: 60px;
+    
 }
-
+.ui{
+    padding-left:29px;
+}
 /* we got-skill section end */
 /* portfolio section start */
 #portfolio{
